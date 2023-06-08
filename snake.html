@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styleS.css">
+    <title>La Viborita</title>
+    <link rel="shortcut icon" type="image/png" href="/fotos/mascara.png">
+</head>
+<body>
+<!-- Barra de inicio -->
+<div class="nav-container">
+    <nav class="navbar">
+      <h1 class="navbar-logo"><a href="index.html">TDB</a></h1>
+      <h1 class="navbar-juegos"><a href="snake.html">Playroom</a></h1>
+      <h1 class="boton-carrito" id="verCarrito">🛒</h1>
+    </nav>    
+  </div>
+<!-- Juego -->
+    <div class="areaDeJuego">
+        <div class="contenedor">
+            <div class="infoDelJuego">
+                <div class="score">Score: 0</div>
+                <!-- <div class="contador">Tiempo: 0</div> -->
+                <div class="high-score">High Score: 0</div>
+            </div>
+            <div class="infoNiveles">
+                <div class="niveles"></div>
+            </div>
+            <div class="tablero"></div>
+        </div>
+    </div>
+    <script src="/js/snake.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="/js/nivelesSnake.js"></script>
+</body>
+</html>
